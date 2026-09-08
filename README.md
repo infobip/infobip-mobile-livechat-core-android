@@ -1,6 +1,6 @@
-# infobip-mobile-livechat-core-android
+# Infobip Mobile Livechat Core — Android
 
-Headless data provider for Infobip Livechat on Android.
+Headless data provider for [Infobip Livechat](https://www.infobip.com/) on Android.
 
 ## Requirements
 
@@ -11,14 +11,22 @@ Headless data provider for Infobip Livechat on Android.
 | Kotlin             | 2.3.21  |
 | Java (toolchain)   | 17      |
 
-## Integration
+## Installation
 
-Add the dependency to your `build.gradle(.kts)`:
+The library is available on Maven Central. Add the dependency to your `build.gradle.kts`:
 
 ```kotlin
-implementation("com.infobip:infobip-mobile-livechat-core-android:1.0.0")
+dependencies {
+    implementation("com.infobip:infobip-mobile-livechat-core-android:1.0.0-rc2")
+}
 ```
+
+## Documentation
+
+See the [project wiki](https://github.com/infobip/infobip-mobile-livechat-core-android/wiki) for library
+documentation and the [GitHub Releases page](https://github.com/infobip/infobip-mobile-livechat-core-android/releases)
+for release notes.
 
 ## License
 
-Distributed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for details.
+Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
